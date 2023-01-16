@@ -1,0 +1,93 @@
+.l-rows
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 10em;
+    min-height: 100vh;
+    background-color: whitesmoke;
+    border-right: rgb(0, 136, 255) solid ;
+}
+
+.hoja-completa
+{
+    display: flex;
+
+}
+
+.r-sheet
+{
+    display: flex;
+    align-items:center;
+  /*   border-color: black;
+    border-style: solid; */
+    min-width: 100vh;
+    flex-direction: column;
+    margin-top: 20%;
+    margin-left: 20%;
+    
+}
+
+
+.contactos p
+{
+    display: flex;
+/*     border-top: rgb(51, 50, 50) solid; */
+    flex-direction: column;
+/*     border: 0.2rem solid black; */
+    flex-wrap: wrap;
+
+
+    
+}
+
+
+.usuario-estado
+{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+
+
+    .usuario-estado img, .avatar
+{
+    border-radius: 100%;
+}
+
+
+
+.estado
+{
+    display: flex;
+    font-size: 0.5em;
+    flex-direction: column-reverse;
+    margin-top: 5em;
+    justify-content: center;
+    
+}
+
+.contactos .submsj
+{
+    display: flex;
+    font-size: 0.7em;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin-top: -1.6em;
+    color: gray;
+    font: italic;
+}
+
+.nuevo
+{
+    display: flex;
+    background-color: darkblue;
+    justify-content: center;
+    flex-direction: column;
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 4em;
+    margin-top: 2em;
+}
